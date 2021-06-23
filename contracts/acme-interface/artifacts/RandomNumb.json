@@ -1,0 +1,55 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"görli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"linkReferences": {},
+			"object": "6080604052348015600f57600080fd5b50603580601d6000396000f3006080604052600080fd00a165627a7a723058203702ff38550567c1f65e015b5cb0c0b26017ef01b8935e9e21d853b55f96a4ae0029",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x35 DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN STOP PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT STOP LOG1 PUSH6 0x627A7A723058 KECCAK256 CALLDATACOPY MUL SELFDESTRUCT CODESIZE SSTORE SDIV PUSH8 0xC1F65E015B5CB0C0 0xb2 PUSH1 0x17 0xef ADD 0xb8 SWAP4 0x5e SWAP15 0x21 0xd8 MSTORE8 0xb5 0x5f SWAP7 LOG4 0xae STOP 0x29 ",
+			"sourceMap": "362:28:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;362:28:0;;;;;;;"
+		},
+		"deployedBytecode": {
+			"linkReferences": {},
+			"object": "6080604052600080fd00a165627a7a723058203702ff38550567c1f65e015b5cb0c0b26017ef01b8935e9e21d853b55f96a4ae0029",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT STOP LOG1 PUSH6 0x627A7A723058 KECCAK256 CALLDATACOPY MUL SELFDESTRUCT CODESIZE SSTORE SDIV PUSH8 0xC1F65E015B5CB0C0 0xb2 PUSH1 0x17 0xef ADD 0xb8 SWAP4 0x5e SWAP15 0x21 0xd8 MSTORE8 0xb5 0x5f SWAP7 LOG4 0xae STOP 0x29 ",
+			"sourceMap": "362:28:0:-;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "10600",
+				"executionCost": "66",
+				"totalCost": "10666"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": []
+}

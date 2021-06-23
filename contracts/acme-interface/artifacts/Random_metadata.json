@@ -1,0 +1,42 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/acme-interface/acmev2.sol": "Random"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/acme-interface/acmev2.sol": {
+			"keccak256": "0xe9882394d847b662e0e6cfae8e3050b6d36e2cf31283928492d19c87d46c368d",
+			"urls": [
+				"bzzr://ade2d5e4779ff903c7836ee6d0cc7f7a7585e3df9f2565ebe8ed5aec13fc871b"
+			]
+		},
+		"https://github.com/provable-things/ethereum-api/blob/master/provableAPI_0.4.25.sol": {
+			"keccak256": "0x652b64b922c13caaf98978e28edc6a9e326080c2c32419ba940281779a3da548",
+			"urls": [
+				"bzzr://a74f641ba2db7d13ffc4989049d57e99cec2de387774604d2d2424a23fd8eda0"
+			]
+		}
+	},
+	"version": 1
+}
